@@ -1,2 +1,22 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+We are finding all possible consecutive pieces of a string, starting from each position and going through every possible end position. 
+For example the word cat = 
+    1. "c", "ca", "cat"
+    2. "a", "at"
+    3. "t"
+
+Pseudo code:
+
+Function consecutiveSubstrings(string):
+  1. Create an empty array
+  
+  2. Loop through each starting position from 0 to end of string:
+     a. Loop through each ending position from i+1 to length of string:
+        - Find substrings at each position
+        - Add substring to result array
+  
+  3. Return result array
+
+
